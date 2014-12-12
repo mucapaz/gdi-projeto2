@@ -57,6 +57,10 @@ CREATE TABLE tb_categoria OF tp_categoria (
 	Categoria PRIMARY KEY
 );
 
+CREATE TABLE tb_telefone OF tp_telefone (
+	Numero NOT NULL
+);
+
 CREATE TABLE tb_loja OF tp_loja (
     CNPJ PRIMARY KEY,
     Tipo NOT NULL,
@@ -80,7 +84,6 @@ CREATE TABLE tb_atracao OF tp_atracao (
 	Tema NOT NULL,
 	Tipo NOT NULL
 );
-
 
 CREATE TABLE tb_aluguel_loja OF tp_aluguel_loja(
     Aluguel WITH ROWID REFERENCES tb_aluguel,
