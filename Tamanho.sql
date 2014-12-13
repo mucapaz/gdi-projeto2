@@ -1,0 +1,10 @@
+INSERT INTO tb_tamanho VALUES(tp_tamanho(74.18, 20.9, 40.61));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(25.83, 26.86, 19.64));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(70.47, 4.43, 45.65));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(81.34, 86.67, 97.09));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(60.69, 32.25, 87.99));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(77.11, 64.44, 60.45));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(68.75, 51.31, 38.62));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(93.67, 2.44, 6.19));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(67.42, 37.3, 85.53));
+INSERT INTO tb_tamanho VALUES(tp_tamanho(93.18, 91.7, 8.43));
