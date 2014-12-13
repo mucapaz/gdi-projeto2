@@ -1,4 +1,7 @@
 INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Marlon', 'Almeida')  );
+INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Marlon', 'Lima') );
+INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Tomer', 'Lima') );
+INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Tomer', 'Paz') );
 INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Samuel', 'Paz')  );
 INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Leite', 'Ferraz')  );
 INSERT INTO tb_nome_funcionario VALUES ( tp_nome('Rene', 'Varsktov')  );
