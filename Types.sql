@@ -25,7 +25,7 @@ CREATE OR REPLACE TYPE tp_aluguel AS OBJECT (
 	Valor number(7,2),
 	Descricao varchar2(200)
 );
-/
+/ar
 
 CREATE OR REPLACE TYPE tp_pagamento AS OBJECT (
 	Codigo integer,
@@ -83,7 +83,8 @@ CREATE OR REPLACE TYPE tp_area AS OBJECT (
 	Codigo integer,
 	Tipo varchar2(50),
 	Descricao varchar2(200),
-	Tamanho REF tp_tamanho	
+	Tamanho REF tp_tamanho,
+	foto BLOB
 );
 /
 
