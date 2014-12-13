@@ -1,4 +1,4 @@
-	INSERT INTO tb_evento VALUES (
+INSERT INTO tb_evento VALUES (
 	tp_evento(
 		223456,
 		'Chegada do inverno',
@@ -7,8 +7,8 @@
 		TO_DATE('13/03/2014', 'dd/mm/yyyy'),		
 		'Privado',
 		tp_nt_ref_atracao(
-			SELECT REF(A) FROM tb_atracao A
-			WHERE A.NOME = 'Banda Polentinha do Arrocha'
+			(SELECT REF(A) FROM tb_atracao A
+			WHERE A.Nome = 'Banda Polentinha do Arrocha' )
 		) 
 	)
 );
@@ -23,8 +23,8 @@ INSERT INTO tb_evento VALUES (
 		TO_DATE('14/03/2014', 'dd/mm/yyyy'),		
 		'Público',
 		tp_nt_ref_atracao(
-			SELECT REF(A) FROM tb_atracao A
-			WHERE A.NOME = 'Palhaço Chocolate'
+			(SELECT REF(A) FROM tb_atracao A
+			WHERE A.NOME = 'Palhaço Chocolate')
 		) 
 	)
 );
@@ -38,8 +38,8 @@ INSERT INTO tb_evento VALUES (
 		TO_DATE('15/03/2014', 'dd/mm/yyyy'),		
 		'Privado',
 		tp_nt_ref_atracao(
-			SELECT REF(A) FROM tb_atracao A
-			WHERE A.NOME = 'Victor e Leo'
+			(SELECT REF(A) FROM tb_atracao A
+			WHERE A.NOME = 'Victor e Leo')
 		) 
 	)
 );
@@ -54,8 +54,8 @@ INSERT INTO tb_evento VALUES (
 		TO_DATE('19/03/2014', 'dd/mm/yyyy'),		
 		'Privado',
 		tp_nt_ref_atracao(
-			SELECT REF(A) FROM tb_atracao A
-			WHERE A.NOME = 'DJ Samuel'
+			(SELECT REF(A) FROM tb_atracao A
+			WHERE A.NOME = 'DJ Samuel')
 		) 
 	)
 );
@@ -70,8 +70,8 @@ INSERT INTO tb_evento VALUES (
 		TO_DATE('12/03/2014', 'dd/mm/yyyy'),		
 		'Público',
 		tp_nt_ref_atracao(
-			SELECT REF(A) FROM tb_atracao A
-			WHERE A.NOME = 'Shevchenko e Elloco'
+			(SELECT REF(A) FROM tb_atracao A
+			WHERE A.NOME = 'Shevchenko e Elloco')
 		) 
 	)
 );
