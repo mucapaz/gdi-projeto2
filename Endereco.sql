@@ -18,7 +18,7 @@ INSERT INTO tb_endereco
 VALUES (tp_endereco('7', 'Pernambuco', '7', 'Menino', 'Boa', 'Hellcife'));
 
 INSERT INTO tb_endereco  
-VALUES (tp_endereco('Marlon', 'Lima', '8', 'Bahia', '8', 'Menino', 'Viagem', 'Hellcife'));
+VALUES (tp_endereco('8', 'Bahia', '8', 'Menino', 'Viagem', 'Hellcife'));
 
 INSERT INTO tb_endereco  
 VALUES (tp_endereco('9', 'Bahia', '9', 'Coisa', 'Viagem', 'Relcity'));
