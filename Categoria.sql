@@ -1,0 +1,13 @@
+INSERT INTO tb_categoria VALUES ( tp_categoria('Calçados', 'Muito usado')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Eletronicos', 'Artigos uteis')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Esportes', 'Jovem adora')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Cinema', 'Pra familia assistir')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Livros', 'Para todos lerem')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Música', 'Para se escutar')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Economia', 'Todos economizam')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Viagens', 'Organizacao de viagem')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Roupas', 'Pessoas usam')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria( 'Acessorios', 'Usam no braco, etc.')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Calças', 'Usam nas pernas')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Relojoalheria', 'Vendem relogios')  );
+INSERT INTO tb_categoria VALUES ( tp_categoria('Bordadagem', 'Bordam tecidos')  );
